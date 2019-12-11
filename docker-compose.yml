@@ -1,0 +1,89 @@
+version: '3'
+
+volumes:
+  db-data:
+#  /var/run/postgresql:
+
+#networks:
+#  db-network:
+#    driver: bridge
+
+services:
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: postgres11-postgis2.5
+    container_name: dassico_db
+    volumes:
+#      - db-data:/var/lib/postgresql/data
+      - db-data:/var/run/postgresql
+#    networks:
+#      - db-network
+    ports:
+      - '5433:5432'
+    env_file: .env
+    restart: always
+
+  user:
+    build:
+      context: ./AuthenticationService
+#    command: python /app/main.py
+#    entrypoint:
+#      - python
+#      - /app/main.py
+    container_name: dassico_user
+    ports:
+      - '5000:5000'
+#    volumes:
+#      - ./app:/app
+#    depends_on:
+#      - db
+    restart: always
+#    networks:
+#      - db-network
+
+  mapping:
+    build:
+      context: ./MappingService
+#    command: python /app/main.py
+#    entrypoint:
+#      - python
+#      - /app/main.py
+    container_name: dassico_mapping
+    ports:
+      - '5001:5000'
+#    volumes:
+#      - ./app:/app
+#    depends_on:
+#      - db
+    restart: always
+#    networks:
+#      - db-network
+
+  sensing:
+    build:
+      context: ./SensingService
+#    command: python /app/main.py
+#    entrypoint:
+#      - python
+#      - /app/main.py
+    container_name: dassico_sensing
+    ports:
+      - '5002:5000'
+#    volumes:
+#      - ./app:/app
+#    depends_on:
+#      - db
+    restart: always
+#    networks:
+#      - db-network
+
+  web:
+      build:
+        context: ./flask_web
+      ports:
+        - '5005:5000'
+      restart: always
+
+

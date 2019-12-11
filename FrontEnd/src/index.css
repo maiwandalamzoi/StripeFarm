@@ -1,0 +1,23 @@
+/*
+    This file contains the css for the index.tsx file
+    The body describes the layout that the body of that page needs to have
+    The code section describes what font the cod class should have.
+
+*/
+body {
+    /*
+        this tag describes the layout that the body of the index.tsx file needs
+    */
+  margin: 0;
+  background: #ececec !important;
+  font-family: 'HKGroteskRegular', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

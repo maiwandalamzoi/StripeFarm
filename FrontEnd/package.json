@@ -1,0 +1,71 @@
+{
+  "name": "StripeFarmer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@googlemap-react/core": "^0.1.5",
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.1",
+    "@types/enzyme": "^3.10.3",
+    "@types/google-maps": "^3.2.1",
+    "@types/heremaps": "^3.0.15",
+    "@types/node": "12.7.5",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "@types/react-router": "^5.0.3",
+    "@types/react-router-dom": "^4.3.5",
+    "@types/react-select": "^3.0.4",
+    "@types/react-test-renderer": "^16.9.1",
+    "@types/request-promise": "^4.1.44",
+    "axios": "^0.19.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "^3.4.2",
+    "google-map-react": "^1.1.5",
+    "jest": "^24.8.0",
+    "json2typescript": "^1.2.3",
+    "material-table": "^1.50.0",
+    "mdbreact": "^4.20.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-dropzone-uploader": "^2.10.1",
+    "react-here-maps": "^0.4.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-spinners": "^0.6.1",
+    "react-test-renderer": "^16.10.2",
+    "recharts": "^1.7.1",
+    "request-promise": "^4.2.4",
+    "typescript": "3.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "testcoverage": "react-scripts test --coverage --watchAll=false --coverageDirectory=output/coverage/jest",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/google-map-react": "^0.23.12",
+    "@types/google-maps-react": "^2.0.1",
+    "@types/googlemaps": "^3.37.7",
+    "@types/jest": "^24.0.18",
+    "ts-jest": "^24.1.0"
+  }
+}
