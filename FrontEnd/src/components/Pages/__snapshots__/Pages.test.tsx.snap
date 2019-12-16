@@ -1,0 +1,674 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 page renders and matches snapshot 1`] = `
+<main
+  className="MuiContainer-root MuiContainer-maxWidthXs"
+>
+  <div
+    className="makeStyles-paper-1"
+  >
+    <div
+      className="MuiBox-root MuiBox-root-10"
+    />
+    <img
+      alt="ImageCloudia"
+      src="CloudiaDead.png"
+      style={
+        Object {
+          "height": 250,
+          "width": 250,
+        }
+      }
+    />
+    <h1
+      className="MuiTypography-root MuiTypography-h1"
+    >
+      404
+    </h1>
+    <div
+      className="MuiBox-root MuiBox-root-41"
+    />
+    <h5
+      className="MuiTypography-root MuiTypography-h5"
+    >
+      Page not found
+    </h5>
+    <div
+      className="MuiBox-root MuiBox-root-42"
+    />
+    <a
+      href="/login"
+      onClick={[Function]}
+    >
+      Back to login
+    </a>
+  </div>
+</main>
+`;
+
+exports[`Forgotpassword view renders and matches snapshot 1`] = `
+Array [
+  <div
+    className="makeStyles-header-268"
+  >
+    <img
+      alt="Cloudia"
+      className="makeStyles-logo-269"
+      src="Cloudia.png"
+    />
+    <p
+      className="MuiTypography-root makeStyles-description-270 MuiTypography-body1 MuiTypography-colorPrimary"
+    >
+      Reset Password
+    </p>
+  </div>,
+  <form
+    className="makeStyles-form-271"
+    noValidate={true}
+    onKeyPress={[Function]}
+  >
+    <h5
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      Enter your email address to reset your password.
+    </h5>
+    <div
+      className="MuiFormControl-root makeStyles-formControl-272 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+        data-shrink={false}
+        htmlFor="email"
+      >
+        Email
+        <span
+          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-describedby="email-error-text"
+          aria-invalid={false}
+          className="MuiInputBase-input MuiInput-input"
+          disabled={false}
+          id="email"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          type="email"
+          value=""
+        />
+      </div>
+      <p
+        className="MuiFormHelperText-root Mui-error Mui-required"
+        id="email-error-text"
+      >
+        
+      </p>
+    </div>
+    <div
+      className="makeStyles-flex-275"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text makeStyles-textbutton-273"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Cancel
+        </span>
+      </button>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text makeStyles-submit-274"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Reset password
+        </span>
+      </button>
+    </div>
+  </form>,
+]
+`;
+
+exports[`login page renders with login view and matches snapshot 1`] = `
+<main
+  className="MuiGrid-root makeStyles-root-43 MuiGrid-container"
+>
+  <main
+    className="makeStyles-paper-44"
+  >
+    <div
+      className="makeStyles-header-148"
+    >
+      <img
+        alt="Cloudia"
+        className="makeStyles-logo-149"
+        src="Cloudia.png"
+      />
+      <p
+        className="MuiTypography-root makeStyles-description-150 MuiTypography-body1 MuiTypography-colorPrimary"
+      >
+        Welcome
+      </p>
+    </div>
+    <form
+      className="makeStyles-form-151"
+      noValidate={true}
+      onKeyPress={[Function]}
+    >
+      <div
+        className="MuiFormControl-root makeStyles-formControl-152 MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="email"
+        >
+          Email
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-describedby="email-error-text"
+            aria-invalid={false}
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="email"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="email"
+            value=""
+          />
+        </div>
+        <p
+          className="MuiFormHelperText-root Mui-error Mui-required"
+          id="email-error-text"
+        >
+          
+        </p>
+      </div>
+      <div
+        className="MuiFormControl-root makeStyles-formControl-152 MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="password"
+        >
+          Password
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-describedby="password-error-text"
+            aria-invalid={false}
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="password"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="password"
+            value=""
+          />
+        </div>
+        <p
+          className="MuiFormHelperText-root Mui-error Mui-required"
+          id="password-error-text"
+        >
+          
+        </p>
+      </div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text makeStyles-submit-154 MuiButton-fullWidth"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Log in
+        </span>
+      </button>
+      <div
+        className="makeStyles-flex-155"
+      >
+        Forgot password?
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text makeStyles-textbutton-153"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Reset
+          </span>
+        </button>
+      </div>
+      <div
+        className="makeStyles-flex-155"
+      >
+        Don't have an account?
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text makeStyles-textbutton-153"
+          disabled={false}
+          id="signupButton"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Sign up
+          </span>
+        </button>
+      </div>
+    </form>
+  </main>
+</main>
+`;
+
+exports[`sign up view renders and matches snapshot 1`] = `
+Array [
+  <div
+    className="makeStyles-header-250"
+  >
+    <img
+      alt="Cloudia"
+      className="makeStyles-logo-251"
+      src="Cloudia.png"
+    />
+    <p
+      className="MuiTypography-root makeStyles-description-252 MuiTypography-body1 MuiTypography-colorPrimary"
+    >
+      Create a new account
+    </p>
+  </div>,
+  <form
+    className="makeStyles-form-253"
+    noValidate={true}
+    onKeyPress={[Function]}
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        <div
+          className="MuiFormControl-root makeStyles-formControl-254 MuiFormControl-fullWidth"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+            data-shrink={false}
+            htmlFor="firstname"
+          >
+            First name
+            <span
+              className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+            >
+               
+              *
+            </span>
+          </label>
+          <div
+            className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-describedby="firstname-error-text"
+              aria-invalid={false}
+              className="MuiInputBase-input MuiInput-input"
+              disabled={false}
+              id="firstname"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          <p
+            className="MuiFormHelperText-root Mui-error Mui-required"
+            id="firstname-error-text"
+          >
+            
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        <div
+          className="MuiFormControl-root makeStyles-formControl-254 MuiFormControl-fullWidth"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+            data-shrink={false}
+            htmlFor="lastname"
+          >
+            Last name
+            <span
+              className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+            >
+               
+              *
+            </span>
+          </label>
+          <div
+            className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-describedby="lastname-error-text"
+              aria-invalid={false}
+              className="MuiInputBase-input MuiInput-input"
+              disabled={false}
+              id="lastname"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          <p
+            className="MuiFormHelperText-root Mui-error Mui-required"
+            id="lastname-error-text"
+          >
+            
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiFormControl-root makeStyles-formControl-254 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+        data-shrink={false}
+        htmlFor="email"
+      >
+        Email
+        <span
+          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-describedby="email-error-text"
+          aria-invalid={false}
+          className="MuiInputBase-input MuiInput-input"
+          disabled={false}
+          id="email"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          type="email"
+          value=""
+        />
+      </div>
+      <p
+        className="MuiFormHelperText-root Mui-error Mui-required"
+        id="email-error-text"
+      >
+        
+      </p>
+    </div>
+    <div
+      className="MuiFormControl-root makeStyles-formControl-254 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+        data-shrink={false}
+        htmlFor="password"
+      >
+        Password
+        <span
+          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-describedby="password-error-text"
+          aria-invalid={false}
+          className="MuiInputBase-input MuiInput-input"
+          disabled={false}
+          id="password"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          type="password"
+          value=""
+        />
+      </div>
+      <p
+        className="MuiFormHelperText-root Mui-error Mui-required"
+        id="password-error-text"
+      >
+        
+      </p>
+    </div>
+    <div
+      className="MuiFormControl-root makeStyles-formControl-254 MuiFormControl-fullWidth"
+    >
+      <label
+        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+        data-shrink={false}
+        htmlFor="confirm"
+      >
+        Confirm password
+        <span
+          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        onClick={[Function]}
+      >
+        <input
+          aria-describedby="confirm-error-text"
+          aria-invalid={false}
+          className="MuiInputBase-input MuiInput-input"
+          disabled={false}
+          id="confirm"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          type="password"
+          value=""
+        />
+      </div>
+      <p
+        className="MuiFormHelperText-root Mui-error Mui-required"
+        id="confirm-error-text"
+      >
+        
+      </p>
+    </div>
+    <div
+      className="makeStyles-flex-257"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text makeStyles-textbutton-255"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Cancel
+        </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text makeStyles-submit-256"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Sign up
+        </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </form>,
+]
+`;

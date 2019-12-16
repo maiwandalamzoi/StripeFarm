@@ -1,0 +1,77 @@
+version: '3'
+
+volumes:
+  db-data:
+
+services:
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dassico_db
+    volumes:
+      - db-data:/var/run/postgresql
+    ports:
+      - '5433:5432'
+    env_file: .env
+    restart: always
+
+  frontend:
+    build:
+      context: ./FrontEnd
+    container_name: dassico_frontend
+    ports:
+      - '3000:3000'
+      - '5000:5000'
+    restart: always
+
+  user:
+    build:
+      context: ./AuthenticationService
+    container_name: dassico_user
+    ports:
+      - '5001:5000'
+    restart: always
+
+  mapping:
+    build:
+      context: ./MappingService
+    container_name: dassico_mapping
+    ports:
+      - '5002:5000'
+    restart: always
+
+
+  sensing:
+    build:
+      context: ./SensingService
+    container_name: dassico_sensing
+    ports:
+      - '5003:5000'
+    restart: always
+
+  datalink:
+    build:
+      context: ./DataLinkService
+    container_name: dassico_datalink
+    ports:
+      - '5004:3000'
+    restart: always
+
+  gateway:
+    build:
+      context: ./ApiGateway
+    container_name: dassico_gateway
+    environment:
+      KONG_DATABASE: "off"
+      KONG_DECLARATIVE_CONFIG: kong.yml
+#    healthcheck:
+#      test: ["CMD", "curl", "-f", "http://gateway:8000"]
+#      interval: 5s
+#      timeout: 2s
+#      retries: 15
+    ports:
+      - "8000:8000/tcp"
+      - "8001:8001/tcp"
+      - "8443:8443/tcp"
+      - "8444:8444/tcp"

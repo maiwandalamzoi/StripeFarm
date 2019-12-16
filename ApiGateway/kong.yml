@@ -1,0 +1,90 @@
+﻿_format_version: "1.1"
+
+services:
+# User Service
+- name: user_user
+  url: http://user:5000/api/users
+  routes:
+  - name: user_user
+    paths:
+    - /api/v1/users
+
+- name: user_role
+  url: http://user:5000/api/roles
+  routes:
+  - name: user_role
+    paths:
+    - /api/v1/roles
+
+- name: user_farm
+  url: http://user:5000/api/farm_users
+  routes:
+  - name: user_farm
+    paths:
+    - /api/v1/farm_users
+
+- name: user_auth
+  url: http://user:5000/api/auth
+  routes:
+  - name: user_auth
+    paths:
+    - /api/v1/auth
+
+# DataMap Service
+- name: datamap
+  url: http://mapping:5000/api/datamaps
+  routes:
+  - name: datamap
+    paths:
+    - /api/v1/datamaps
+
+# Sensing Service
+- name: sensing_farm
+  url: http://sensing:5000/api/farms
+  routes:
+  - name: sensing_farm
+    paths:
+    - /api/v1/farms
+
+- name: sensing_croptype
+  url: http://sensing:5000/api/crop_types
+  routes:
+  - name: sensing_croptype
+    paths:
+    - /api/v1/crop_types
+
+- name: sensing_equipment
+  url: http://sensing:5000/api/equipments
+  routes:
+  - name: sensing_equipment
+    paths:
+    - /api/v1/equipments
+
+- name: sensing_country
+  url: http://sensing:5000/api/country_list
+  routes:
+  - name: sensing_country
+    paths:
+    - /api/v1/country_list
+
+- name: sensing_soil
+  url: http://sensing:5000/api/soil_types
+  routes:
+  - name: sensing_soil
+    paths:
+    - /api/v1/soil_types
+
+- name: sensing_observation
+  url: http://sensing:5000/api/observations
+  routes:
+  - name: sensing_observation
+    paths:
+    - /api/v1/observations
+
+# API Docs
+- name: docs
+  url: https://app.swaggerhub.com/apis-docs/dimsc/DataStorage/1.0.0
+  routes:
+  - name: docs
+    paths:
+    - /api/docs
