@@ -1,6 +1,6 @@
 # DASSICO
 
-DASSICO stands for DAta Storing and Structuring for Information disCOvery.
+DASSICO stands for DAta Storing and Structuring for Information disCOvery. STRIPEFARM is the first frontend repository to help nature inclusive farming, focussing on stripe farming.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running in your local machine 
