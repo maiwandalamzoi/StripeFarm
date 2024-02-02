@@ -40,8 +40,8 @@
     "filereader": "^0.10.3",
     "node-cron": "^2.0.3",
     "pg-promise": "^9.3.3",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
     "tsc-watch": "^3.0.1"
   },
   "devDependencies": {
