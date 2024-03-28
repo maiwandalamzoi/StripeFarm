@@ -39,7 +39,7 @@
     "express": "^5.0.0-alpha.7",
     "filereader": "^0.10.3",
     "node-cron": "^2.0.3",
-    "pg-promise": "^9.3.3",
+    "pg-promise": "^11.5.5",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "tsc-watch": "^3.0.1"
