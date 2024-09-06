@@ -42,7 +42,7 @@
     "pg-promise": "^9.3.3",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
-    "tsc-watch": "^3.0.1"
+    "tsc-watch": "^6.0.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.10",
