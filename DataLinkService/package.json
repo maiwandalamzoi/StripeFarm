@@ -33,7 +33,7 @@
     "@types/node": "^12.7.4",
     "@types/request-promise": "^4.1.44",
     "binstring": "^0.2.1",
-    "compression": "^1.7.4",
+    "compression": "^1.8.1",
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
     "express": "^5.0.0-alpha.7",
